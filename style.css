@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    position: absolute;
+    width: 267px;
+    height: 65px;
+    left:  43.45%;
+    top: 75px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #626262;
+}
+ 
+.mainsub {
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 45.4%;
+    top: 143px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+ 
+    color: #626262;
+}
+ 
+.ninjahead{
+    right: 15.7%;
+    top: 50px;
+    position: absolute;
+    width: 250px;
+    height: 187px;
+    background: url(favicon.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+}
+ 
+.learn{
+    position: absolute;
+    width: 794px;
+    height: 75px;
+    left: 30%;
+    top: 357px;
+ 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #626262;
+}
+ 
+.underrec1 {
+    position: absolute;
+    width: 200px;
+    height: 7px;
+    left: 44.6%;
+    top: 604px;
+ 
+    background: #6EB90E;
+    border-radius: 0px 0px 5px 5px;
+    z-index: 1;
+}
+ 
+.rec1 {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 44.6%;
+    top: 551px;
+    background: #90F311;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rec1:hover {
+    background: #6EB90E;
+}
+ 
+
+.rec4:hover {
+    background: #6EB90E;
+}
+
+ 
+.text1 {
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(79, 79, 79, 0.85);
+}
+ 
+
+ 
+.secsub {
+    position: absolute;
+    width: 579px;
+    height: 75px;
+    left: 35%;
+    top: 1029px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #1B1B1B;
+}
+ 
+.secsubdisc {
+    position: absolute;
+    width: 482px;
+    height: 76px;
+    left: 35%;
+    top: 1148px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: rgba(27, 27, 27, 0.85);
+}
+ 
+.secsubdisc2 {
+    position: absolute;
+    width: 468px;
+    height: 34px;
+    left: 37%;
+    top: 1291px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+ 
+.ninja-in-air {
+    position: absolute;
+    width: 393px;
+    height: 507px;
+    left: 67.73%;
+    top: 1607px;
+    background: url(ninja-in-air.png);
+    }
+ 
+    .cross {
+        width: 222px;
+        height: 26px;
+        background: #F15F5F;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+ 
+    .tick {
+        width: 222px;
+        height: 26px;
+        background: #90F311;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+ 
+    .cross1 {
+        position: absolute;
+        left: 65%;
+        top: 1513px;
+        transition-delay: 250ms;
+    }
+ 
+    .tick1{
+        position: absolute;
+        left: 65%;
+        top: 1550px;
+        transition-delay: 250ms;
+    }
+
+    .hidden {
+        opacity: 0%;
+        transition-delay: 250ms;
+    }
+
+    .info {
+        position: absolute;
+        width: 60px;
+        height: 54px;
+        left: 35%;
+        top: 1530px;
+        background: #F7F7F7;
+        border: none;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .multiply {
+        position: absolute;
+        width: 24px;
+        height: 60px;
+        left: 39.5%;
+        top: 1460px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 75px;
+        color: #000000;
+    }
+
+    .info1 {
+        position: absolute;
+        width: 60px;
+        height: 54px;
+        left: 43%;
+        top: 1530px;
+        background: #F6F6F6;
+        border: none;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .ans {
+        position: absolute;
+        width: 60px;
+        height: 54px;
+        left: 52%;
+        top: 1530px;
+        background: #F6F6F6;
+        border: none;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .equal {    
+        position: absolute;
+        width: 36px;
+        height: 60px;
+        left: 48.2%;
+        top: 1460px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 75px;
+        color: #000000;
+    }
+    .btn {
+        position: absolute;
+        width: 181px;
+        height: 27px;
+        left: 40%;
+        top: 1650px;
+        background: #90F311;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: #6EB90E;
+    }
